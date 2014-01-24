@@ -1,0 +1,9 @@
+#+AUTHOR: Xing Zhou
+#+DATE: <2014-01-24 Fri>
+#+DESCRIPTION: A variety of scripts that make life easier.
+
+* Included scripts:
+
+** godev
+   A simple bash shell script that help create the default Go
+   directory.
