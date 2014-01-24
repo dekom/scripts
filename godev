@@ -1,8 +1,21 @@
-#! /bin/sh
+# usage: source godev root
+#
+# root is a root directory of your Go workspace, as described here:
+# http://golang.org/doc/code.html
+#
+# The script will create the following directories:
+# - root
+# - root/bin
+# - root/pkg
+# - root/src
+#
+# Additionally, it also modify the following environment variables:
+# - set/modify GOPATH to root
+# - append root/bin to the end of PATH
 
 if [ -z $1 ]; then
     echo "ERROR: empty directory supplied"
-    exit
+    return
 fi
 
 gopath=$(cd $(dirname "$1"); pwd)/$(basename $1)

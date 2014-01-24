@@ -2,6 +2,9 @@
 #+DATE: <2014-01-24 Fri>
 #+DESCRIPTION: A variety of scripts that make life easier.
 
+* Description
+  A variety of scripts that makes (my) life easier.
+
 * Included scripts:
 
 ** godev
